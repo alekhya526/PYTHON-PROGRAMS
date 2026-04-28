@@ -1,0 +1,29 @@
+import random
+p1=input("enter player1:")
+p2=input("enter player2:")
+s1=5
+s2=5
+d1= random.randint(1,5)
+d2= random.randint(1,5)
+print("_______PLAYER1 TURN_________")
+while(True):
+    g1=int(input("enter the gess: "))
+    s1=s1-1
+    if g1==d1:
+        break
+print("_______PLAYER2 TURN_________")
+while(True):
+    g2=int(input("enter the gess: "))
+    s2=s2-1
+    if g2==d2:
+        break
+print("________SUMMARY____________")
+print("{}:{}".format(p1,s1))
+print("{}:{}".format(p2,s2))
+print("________RESULT____________")     
+if s1>s2:
+      print("winner is",p1)
+elif s2>s1:
+    print("winner is",p1)
+else:
+    print("TIE")
