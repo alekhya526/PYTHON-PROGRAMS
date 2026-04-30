@@ -1,0 +1,7 @@
+a="alekhya is doing engg"
+b=a.upper()
+c=a.lower()
+d=a.swapcase()
+e=a.title()
+f=a.capitalize()
+print(e)
