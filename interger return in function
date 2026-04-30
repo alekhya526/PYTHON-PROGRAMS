@@ -1,0 +1,4 @@
+a="alekhya is DOING ENGG"
+b=a.find("Egfhft")
+c=a.count("a")
+print(c)
