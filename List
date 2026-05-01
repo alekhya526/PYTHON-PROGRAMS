@@ -1,0 +1,7 @@
+a=[10,10,101,20,20,34,55]
+a.append(74)
+a.insert(0,88)
+a.pop()
+a.pop(4)
+a.clear()
+print(a)
