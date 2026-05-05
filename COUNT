@@ -1,0 +1,4 @@
+a="object has no attribute"
+b=a.find("Egfhft")
+c=a.count("a")
+print(c)
