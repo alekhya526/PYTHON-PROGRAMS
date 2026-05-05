@@ -1,0 +1,8 @@
+import qrcode
+qr=qrcode.QRCode()
+a="TVK is rocking"
+qr.add_data(a)
+qr.make(fit = True)
+res=qr.make_image(fill_color="black",back_color)
+res.save("alekhya.png")
+print("created alekhya")
