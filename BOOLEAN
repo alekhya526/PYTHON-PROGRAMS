@@ -1,0 +1,6 @@
+res="u"
+print(res.isupper())
+print(res.islower())
+print(res.isdigit())
+print(res.isalpha())
+print(res.isalnum())
