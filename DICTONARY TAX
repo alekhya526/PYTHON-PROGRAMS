@@ -1,0 +1,6 @@
+name=input("enter emp name: ")
+sal=int(input("enter salary: "))
+desig=input("enter position: ")
+dict={'TL':10,'Manager':20,'Fresher':5,'Developer':15}
+Tax=sal *(dict[desig]/100)
+print(Tax)
